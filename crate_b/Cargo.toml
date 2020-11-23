@@ -1,0 +1,11 @@
+[package]
+name = "crate_b"
+version = "0.1.0"
+authors = ["Vincent Tavernier <vince.tavernier@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+crate_a = "=0.1.0"
